@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Store my thoughts-SignUp</title>
+<link rel="stylesheet" href="signup.css">
+<script type="text/javascript">
+function Validate() {
+	 let pass = document.getElementById("password").value;
+	 if(pass.length<5 || pass.length>8){
+	 alert("Password must be of length minimum of 5 characters and maximum of 8 characters.");
+	 return false;
+	 }
+	}
+</script>
+</head>
+<body>
+<body background="2wad.png" class="body1">
+</body class="body2">
+<p class="p1">
+<font face="Cursive" color="brown" size="40px">Store your thoughts</font>
+</p>
+<br>
+
+  <table>
+    <form action="signup.jsp" method="post" onsubmit="return Validate()">
+    <tr><td><label>Name</label></td>
+    <td><input type="text" name="name" id="name" required style="height: 30px; width: 350px;" ></td></tr>
+      <tr><td><label>Email:</label></td>
+      <td><input type="email" name="email" id="email" required style="height: 30px; width: 350px;" ></td></tr>
+      <tr><td><label>Password:</label></td>
+      <td><input type="password" name="password" id="password" required style="height: 30px; width: 350px;"></td></tr>
+      <tr><td><label>Confirm Password:</label></td>
+      <td><input type="password" name="cpassword" id="cpassword" required style="height: 30px; width: 350px;" ></td></tr>
+      <tr><td colspan="2" align="center"><input type="submit" value="Sign Up"></td></tr>
+    </form>
+</table>
+</body>
+</html>

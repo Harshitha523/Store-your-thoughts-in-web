@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+body{
+    background-size: cover;
+}
+.p1{
+    padding-left: 680px;
+    padding-top: 80px;
+}
+table{
+    padding-left: 650px;
+    font-size: 35px;
+    font-family: cursive;
+    color: brown;
+}
+input[type=button]{
+    font-family: cursive;
+    height:40px;
+    width:90px;
+    font-size: 20px;
+    color:brown;
+}
+input[type=submit]{
+    font-family: cursive;
+    height:40px;
+    width:90px;
+    font-size: 20px;
+    color:brown;
+    background-color: rgb(236, 177, 155);
+    color:rgb(0, 0, 0);
+    border-radius: 6px;
+    cursor:pointer;
+    width:250px;
+}
